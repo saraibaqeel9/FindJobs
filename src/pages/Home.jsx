@@ -336,8 +336,8 @@ const [activeTag, setActiveTag] = useState(null);
             sx={{
               p: { xs: 2, md: 3 },
               pt: 1.5,
-              borderRadius: 3,
-              border: "1px solid #eef2f7",
+              // borderRadius: 3,
+              // border: "1px solid #eef2f7",
               background: "transparent",
             }}
           >
@@ -497,42 +497,48 @@ const [activeTag, setActiveTag] = useState(null);
 
             </Box>
           </Paper>
-          <Divider sx={{ my: 1, mx: 3.5, borderColor: '#E9ECEF' }} />
+          <Divider sx={{ mx: 3, borderColor: '#E9ECEF' }} />
           <Paper
             elevation={0}
             sx={{
             
               overflow: "hidden",
-              border: "1px solid #eef2f7",
+            
               background: 'transparent',
-              mt: 1,
-              m: 3
+           
+              m: 2
             }}
           >
-            <Box sx={{ display: 'flex', gap: 2 }}>
-              <Typography fontSize={18} fontWeight={500}>
-                Featured Jobs
+           <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+  <Typography
+    sx={{
+      fontSize: { xs: 14, sm: 16, md: 18 },
+      fontWeight: 500,
+    }}
+  >
+    Featured Jobs
+  </Typography>
 
-              </Typography>
-              <Box
-                component="span"
-                sx={{
-                  color: Colors.linkColor,
-                  textDecoration: 'underline',
-                  cursor: 'pointer',
-                  // fontSize:'14px',
-                  mt:'1px'
-                }}
-              >
-                See Featured Jobs
-              </Box>
-            </Box>
+  <Box
+    component="span"
+    sx={{
+      color: Colors.linkColor,
+      textDecoration: 'underline',
+      cursor: 'pointer',
+      mt: '1px',
+      fontSize: { xs: 12, sm: 13, md: 14 },
+    }}
+  >
+    See Featured Jobs
+  </Box>
+</Box>
+
             <Paper
               elevation={0}
               sx={{
-                borderRadius: 3,
+                
                 overflow: "hidden",
-                border: "1px solid #eef2f7",
+               
                 background: 'transparent',
                 mt: 1,
 
@@ -555,42 +561,47 @@ const [activeTag, setActiveTag] = useState(null);
 
             </Paper>
           </Paper>
-           <Divider sx={{ my: 1, mx: 3.5, borderColor: '#E9ECEF' }} />
+           <Divider sx={{ my: 1,mt:3, mx: 3, borderColor: '#E9ECEF' }} />
           <Paper
             elevation={0}
             sx={{
             
               overflow: "hidden",
-              border: "1px solid #eef2f7",
+             
               background: 'transparent',
               mt: 1,
-              m: 3
+              m: 2
             }}
           >
-            <Box sx={{ display: 'flex', gap: 2 }}>
-              <Typography fontSize={18} fontWeight={500}>
-                Recommended Jobs
+                    <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+  <Typography
+    sx={{
+      fontSize: { xs: 14, sm: 16, md: 18 },
+      fontWeight: 500,
+    }}
+  >
+    Recommended Jobs
+  </Typography>
 
-              </Typography>
-              <Box
-                component="span"
-                sx={{
-                  color: Colors.linkColor,
-                  textDecoration: 'underline',
-                  cursor: 'pointer',
-                  // fontSize:'14px',
-                  mt:'1px'
-                }}
-              >
-                See Recommended Jobs
-              </Box>
-            </Box>
+  <Box
+    component="span"
+    sx={{
+      color: Colors.linkColor,
+      textDecoration: 'underline',
+      cursor: 'pointer',
+      mt: '1px',
+      fontSize: { xs: 12, sm: 13, md: 14 },
+    }}
+  >
+    See Recommended Jobs
+  </Box>
+</Box>
             <Paper
               elevation={0}
               sx={{
-                borderRadius: 3,
+         
                 overflow: "hidden",
-                border: "1px solid #eef2f7",
+                
                 background: 'transparent',
                 mt: 1,
 
@@ -613,42 +624,47 @@ const [activeTag, setActiveTag] = useState(null);
 
             </Paper>
           </Paper>
-             <Divider sx={{ my: 1, mx: 3.5, borderColor: '#E9ECEF' }} />
+             <Divider sx={{ my: 1,mt:3, mx: 3, borderColor: '#E9ECEF' }} />
           <Paper
             elevation={0}
             sx={{
             
               overflow: "hidden",
-              border: "1px solid #eef2f7",
+              
               background: 'transparent',
               mt: 1,
-              m: 3
+              m: 2
             }}
           >
-            <Box sx={{ display: 'flex', gap: 2 }}>
-              <Typography fontSize={18} fontWeight={500}>
-                Latest Jobs
+                   <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+  <Typography
+    sx={{
+      fontSize: { xs: 14, sm: 16, md: 18 },
+      fontWeight: 500,
+    }}
+  >
+    Latest Jobs
+  </Typography>
 
-              </Typography>
-              <Box
-                component="span"
-                sx={{
-                  color: Colors.linkColor,
-                  textDecoration: 'underline',
-                  cursor: 'pointer',
-                  // fontSize:'14px',
-                  mt:'1px'
-                }}
-              >
-                See Latest Jobs
-              </Box>
-            </Box>
+  <Box
+    component="span"
+    sx={{
+      color: Colors.linkColor,
+      textDecoration: 'underline',
+      cursor: 'pointer',
+      mt: '1px',
+      fontSize: { xs: 12, sm: 13, md: 14 },
+    }}
+  >
+    See Latest Jobs
+  </Box>
+</Box>
             <Paper
               elevation={0}
               sx={{
-                borderRadius: 3,
+              
                 overflow: "hidden",
-                border: "1px solid #eef2f7",
+             
                 background: 'transparent',
                 mt: 1,
 

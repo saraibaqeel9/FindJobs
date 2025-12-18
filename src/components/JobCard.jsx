@@ -20,7 +20,7 @@ const JobCard = ({
         border: "1px solid #E1E1E1",
         borderRadius: '10px',
         fontFamily: '"Neue Haas Display", Arial, sans-serif !important',
-        width: '100%',
+     
         position: "relative",
         background: 'white'
       }}
