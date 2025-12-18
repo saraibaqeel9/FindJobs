@@ -334,7 +334,7 @@ const [activeTag, setActiveTag] = useState(null);
           <Paper
             elevation={0}
             sx={{
-              p: { xs: 2, md: 3 },
+              p: { xs: 1, md: 3 },
               pt: 1.5,
               // borderRadius: 3,
               // border: "1px solid #eef2f7",
