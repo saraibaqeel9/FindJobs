@@ -16,7 +16,7 @@ import { useState } from "react";
 
 
 const Home = () => {
-const [activeTag, setActiveTag] = useState(null);
+  const [activeTag, setActiveTag] = useState(null);
 
 
   const jobsData = [
@@ -28,7 +28,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "Promoted",
       title: "UI/UX Designer",
       company: "Teams",
@@ -36,7 +36,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "Promoted",
       title: "UI/UX Designer",
       company: "Teams",
@@ -44,7 +44,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "Promoted",
       title: "UI/UX Designer",
       company: "Teams",
@@ -52,11 +52,11 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     
- 
-    
+
+
+
   ];
-   const RecommendedJobsData = [
+  const RecommendedJobsData = [
     {
       promoted: "",
       title: "UI/UX Designer",
@@ -65,67 +65,6 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     
-   {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     {
-      promoted: "",
-      title: "UI/UX Designer",
-      company: "Teams",
-      location: "Seattle, USA (Remote)",
-      daysAgo: "1 day ago",
-      applicants: 22,
-    },
-     
-    
-  ];
-   const LatestJobsData = [
     {
       promoted: "",
       title: "UI/UX Designer",
@@ -134,7 +73,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -142,7 +81,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -150,7 +89,8 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -158,8 +98,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     
-   {
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -167,7 +106,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -175,7 +114,7 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -183,7 +122,11 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     {
+
+
+  ];
+  const LatestJobsData = [
+    {
       promoted: "",
       title: "UI/UX Designer",
       company: "Teams",
@@ -191,15 +134,72 @@ const [activeTag, setActiveTag] = useState(null);
       daysAgo: "1 day ago",
       applicants: 22,
     },
-     
-    
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+    {
+      promoted: "",
+      title: "UI/UX Designer",
+      company: "Teams",
+      location: "Seattle, USA (Remote)",
+      daysAgo: "1 day ago",
+      applicants: 22,
+    },
+
+
   ];
   return (
     <Box sx={{ p: 3 }}>
 
       <Grid container spacing={2}>
         {/* Left column (4) */}
-        <Grid size={{ xs:12,sm: 12, md: 4 }}>
+        <Grid size={{ xs: 12, sm: 12, md: 4 }}>
           <Paper
             elevation={0}
             sx={{
@@ -452,238 +452,248 @@ const [activeTag, setActiveTag] = useState(null);
                 Similar:
               </Typography>
 
-{["Frontend", "Backend", "Graphic Designer"].map((tag) => {
-  const isActive = activeTag === tag;
+              {["Frontend", "Backend", "Graphic Designer"].map((tag) => {
+                const isActive = activeTag === tag;
 
-  return (
-    <Chip
-      key={tag}
-      label={tag}
-      clickable
-      onClick={() => setActiveTag(isActive ? null : tag)}
-      size="small"
-      sx={{
-        fontSize: 12,
-        fontWeight: 500,
-        borderRadius: 1,
-         p: 2,
-        px: 1.5,
-        height: 28,
-        fontFamily: '"Neue Haas Display", Arial, sans-serif',
+                return (
+                  <Chip
+                    key={tag}
+                    label={tag}
+                    clickable
+                    onClick={() => setActiveTag(isActive ? null : tag)}
+                    size="small"
+                    sx={{
+                      fontSize: 12,
+                      fontWeight: 500,
+                      borderRadius: 1,
+                      p: 2,
+                      px: 1.5,
+                      height: 28,
+                      fontFamily: '"Neue Haas Display", Arial, sans-serif',
 
-        // text color
-        color: isActive ? Colors.linkColor : "#667085",
+                      // text color
+                      color: isActive ? Colors.linkColor : "#667085",
 
-        // background
-        backgroundColor: isActive ? "#FFFFFF" : "transparent",
+                      // background
+                      backgroundColor: isActive ? "#FFFFFF" : "transparent",
 
-        // border
-        border: "1px solid",
-        borderColor: isActive ? Colors.linkColor : "#D0D5DD",
+                      // border
+                      border: "1px solid",
+                      borderColor: isActive ? Colors.linkColor : "#D0D5DD",
 
-        "&:hover": {
-          backgroundColor: isActive ? "#DBEAFE" : "#F9FAFB",
-          borderColor: isActive ? Colors.linkColor : "#98A2B3",
-        },
+                      "&:hover": {
+                        backgroundColor: isActive ? "#DBEAFE" : "#F9FAFB",
+                        borderColor: isActive ? Colors.linkColor : "#98A2B3",
+                      },
 
-        "&.MuiChip-clickable:active": {
-          backgroundColor: "#DBEAFE",
-        },
-      }}
-    />
-  );
-})}
+                      "&.MuiChip-clickable:active": {
+                        backgroundColor: "#DBEAFE",
+                      },
+                    }}
+                  />
+                );
+              })}
 
 
             </Box>
           </Paper>
-          <Divider sx={{ mx: 3, borderColor: '#E9ECEF' }} />
+          <Divider
+            sx={{
+              mx: 3,
+              mt: { xs: 2, sm: 2, md: 0 },
+              borderColor: '#E9ECEF',
+            }}
+          />
+
           <Paper
             elevation={0}
             sx={{
-            
+
               overflow: "hidden",
-            
+
               background: 'transparent',
-           
-              m: 2
+
+              m: 2,
+              mx: { lg: 3, md: 3, sm: 1, xs: 1 }
             }}
           >
-           <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
-  <Typography
-    sx={{
-      fontSize: { xs: 14, sm: 16, md: 18 },
-      fontWeight: 500,
-    }}
-  >
-    Featured Jobs
-  </Typography>
+            <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+              <Typography
+                sx={{
+                  fontSize: { xs: 14, sm: 16, md: 18 },
+                  fontWeight: 500,
+                }}
+              >
+                Featured Jobs
+              </Typography>
 
-  <Box
-    component="span"
-    sx={{
-      color: Colors.linkColor,
-      textDecoration: 'underline',
-      cursor: 'pointer',
-      mt: '1px',
-      fontSize: { xs: 12, sm: 13, md: 14 },
-    }}
-  >
-    See Featured Jobs
-  </Box>
-</Box>
+              <Box
+                component="span"
+                sx={{
+                  color: Colors.linkColor,
+                  textDecoration: 'underline',
+                  cursor: 'pointer',
+                  mt: '1px',
+                  fontSize: { xs: 12, sm: 13, md: 14 },
+                }}
+              >
+                See Featured Jobs
+              </Box>
+            </Box>
 
             <Paper
               elevation={0}
               sx={{
-                
+
                 overflow: "hidden",
-               
+
                 background: 'transparent',
                 mt: 1,
 
               }}
             >
-             
-                <Grid container spacing={2}>
-                  {jobsData.map((job, index) => (
-                    <Grid
-                      
-                      key={index}
-                      size={{ xl:3,lg: 4,md:6,sm:6,xs:12 }}
-                    >
-                      <JobCard {...job} />
-                    </Grid>
-                  ))}
-                </Grid>
 
-              
+              <Grid container spacing={2}>
+                {jobsData.map((job, index) => (
+                  <Grid
+
+                    key={index}
+                    size={{ xl: 3, lg: 4, md: 6, sm: 6, xs: 12 }}
+                  >
+                    <JobCard {...job} />
+                  </Grid>
+                ))}
+              </Grid>
+
+
 
             </Paper>
           </Paper>
-           <Divider sx={{ my: 1,mt:3, mx: 3, borderColor: '#E9ECEF' }} />
+          <Divider sx={{ my: 1, mt: 3, mx: 3, borderColor: '#E9ECEF' }} />
           <Paper
             elevation={0}
             sx={{
-            
+
               overflow: "hidden",
-             
+
               background: 'transparent',
               mt: 1,
-              m: 2
+              m: 2,
+              mx: { lg: 3, md: 3, sm: 1, xs: 1 }
             }}
           >
-                    <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
-  <Typography
-    sx={{
-      fontSize: { xs: 14, sm: 16, md: 18 },
-      fontWeight: 500,
-    }}
-  >
-    Recommended Jobs
-  </Typography>
+            <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+              <Typography
+                sx={{
+                  fontSize: { xs: 14, sm: 16, md: 18 },
+                  fontWeight: 500,
+                }}
+              >
+                Recommended Jobs
+              </Typography>
 
-  <Box
-    component="span"
-    sx={{
-      color: Colors.linkColor,
-      textDecoration: 'underline',
-      cursor: 'pointer',
-      mt: '1px',
-      fontSize: { xs: 12, sm: 13, md: 14 },
-    }}
-  >
-    See Recommended Jobs
-  </Box>
-</Box>
+              <Box
+                component="span"
+                sx={{
+                  color: Colors.linkColor,
+                  textDecoration: 'underline',
+                  cursor: 'pointer',
+                  mt: '1px',
+                  fontSize: { xs: 12, sm: 13, md: 14 },
+                }}
+              >
+                See Recommended Jobs
+              </Box>
+            </Box>
             <Paper
               elevation={0}
               sx={{
-         
+
                 overflow: "hidden",
-                
+
                 background: 'transparent',
                 mt: 1,
 
               }}
             >
-             
-                <Grid container spacing={2}>
-                  {RecommendedJobsData.map((job, index) => (
-                    <Grid
-                      
-                      key={index}
-                      size={{ xl:3,lg: 4,md:6,sm:6,xs:12 }}
-                    >
-                      <JobCard {...job} />
-                    </Grid>
-                  ))}
-                </Grid>
 
-              
+              <Grid container spacing={2}>
+                {RecommendedJobsData.map((job, index) => (
+                  <Grid
+
+                    key={index}
+                    size={{ xl: 3, lg: 4, md: 6, sm: 6, xs: 12 }}
+                  >
+                    <JobCard {...job} />
+                  </Grid>
+                ))}
+              </Grid>
+
+
 
             </Paper>
           </Paper>
-             <Divider sx={{ my: 1,mt:3, mx: 3, borderColor: '#E9ECEF' }} />
+          <Divider sx={{ my: 1, mt: 3, mx: 3, borderColor: '#E9ECEF' }} />
           <Paper
             elevation={0}
             sx={{
-            
+
               overflow: "hidden",
-              
+
               background: 'transparent',
               mt: 1,
-              m: 2
+              m: 2,
+              mx: { lg: 3, md: 3, sm: 1, xs: 1 }
             }}
           >
-                   <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
-  <Typography
-    sx={{
-      fontSize: { xs: 14, sm: 16, md: 18 },
-      fontWeight: 500,
-    }}
-  >
-    Latest Jobs
-  </Typography>
+            <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+              <Typography
+                sx={{
+                  fontSize: { xs: 14, sm: 16, md: 18 },
+                  fontWeight: 500,
+                }}
+              >
+                Latest Jobs
+              </Typography>
 
-  <Box
-    component="span"
-    sx={{
-      color: Colors.linkColor,
-      textDecoration: 'underline',
-      cursor: 'pointer',
-      mt: '1px',
-      fontSize: { xs: 12, sm: 13, md: 14 },
-    }}
-  >
-    See Latest Jobs
-  </Box>
-</Box>
+              <Box
+                component="span"
+                sx={{
+                  color: Colors.linkColor,
+                  textDecoration: 'underline',
+                  cursor: 'pointer',
+                  mt: '1px',
+                  fontSize: { xs: 12, sm: 13, md: 14 },
+                }}
+              >
+                See Latest Jobs
+              </Box>
+            </Box>
             <Paper
               elevation={0}
               sx={{
-              
+
                 overflow: "hidden",
-             
+
                 background: 'transparent',
                 mt: 1,
 
               }}
             >
-             
-                <Grid container spacing={2}>
-                  {LatestJobsData.map((job, index) => (
-                    <Grid
-                      
-                      key={index}
-                      size={{ xl:3,lg: 4,md:6,sm:6,xs:12 }}
-                    >
-                      <JobCard {...job} />
-                    </Grid>
-                  ))}
-                </Grid>
 
-              
+              <Grid container spacing={2}>
+                {LatestJobsData.map((job, index) => (
+                  <Grid
+
+                    key={index}
+                    size={{ xl: 3, lg: 4, md: 6, sm: 6, xs: 12 }}
+                  >
+                    <JobCard {...job} />
+                  </Grid>
+                ))}
+              </Grid>
+
+
 
             </Paper>
           </Paper>
